@@ -2,10 +2,13 @@
 
 /* The scripts needed to test/start/build the application */
 
--In order to start Runing the API you'll need to run the following Script : npm run start this script will perform both tasks: building and running the converted ts to js node file, which will be in the bath "dist/index.js" here's the corresponding script: "start": "tsc && node dist/index.js",
+- In order to start Runing the API you'll need to run the following Script : npm run start this script will perform both tasks: building and running the converted ts to js node file, which will be in the bath "dist/index.js" here's the corresponding script: "start": "tsc && node dist/index.js",
 
--In order to Test the Application you'll need to run the following Script : npm run test this script will perform both tasks: bulding the application then running the test>
+- In order to Test the Application you'll need to run the following Script : npm run test this script will perform both tasks: bulding the application then running the test>
 here's the corresponding script: "test": "npm run build && npm run jasmine"
+
+ - The Application kan be accesed by the following path:
+   localhost:3000/api?name=ImageName&width=TheWantedResizedWidth&hight=TheWantedResizedHight
 
                              //****-----------****// //****-----------****//
                              
