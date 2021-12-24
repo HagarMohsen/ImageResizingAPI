@@ -15,6 +15,7 @@ here's the corresponding script: "test": "npm run build && npm run jasmine"
        -the main server will be in the following path: src/index.ts
        
        -while the endpoint will be in the following path: src/routes/index.ts
+       
 
 
                               //****-----------****// //****-----------****//
