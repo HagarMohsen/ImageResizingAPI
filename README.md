@@ -12,11 +12,8 @@ here's the corresponding script: "test": "npm run build && npm run jasmine"
 /* Any endpoints that should be accessed to test that you have created the required functionality */
 
 - The 2 main files:
-       -the main server will be in the following path: src/index.ts
+       -the main server will be in the following path: src/index.ts// while the endpoint will be in the following path: src/routes/index.ts
        
-       -while the endpoint will be in the following path: src/routes/index.ts
-       
-
 
                               //****-----------****// //****-----------****//
                               
